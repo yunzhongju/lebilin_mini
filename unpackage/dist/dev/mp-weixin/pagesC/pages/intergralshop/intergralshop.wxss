@@ -1,0 +1,202 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 自定义 */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.intergral-shop .left-fixed {
+  position: fixed;
+  width: 50rpx;
+  text-align: center;
+  background-color: #FF2F29;
+  letter-spacing: 4rpx;
+  color: #fff;
+  padding: 10rpx 0;
+  font-size: 34rpx;
+  left: 0;
+  top: 30%;
+  border-radius: 8rpx;
+}
+.intergral-shop .top-info {
+  height: 160rpx;
+  background-color: #FF2F29;
+  padding: 0 42rpx;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  position: relative;
+}
+.intergral-shop .top-info .nick {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 238rpx;
+}
+.intergral-shop .top-info .nick .avatar {
+  width: 88rpx;
+  height: 88rpx;
+  border-radius: 50%;
+  margin-right: 26rpx;
+}
+.intergral-shop .top-info .nick .nick-name {
+  font-size: 30rpx;
+  letter-spacing: 3rpx;
+  color: #ffffff;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.intergral-shop .top-info .intergral {
+  font-size: 30rpx;
+  color: #ffffff;
+  width: 300rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.intergral-shop .top-info .right {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.intergral-shop .top-info .right .btn {
+  width: 110rpx;
+  height: 48rpx;
+  border: solid 2rpx #ffffff;
+  border-radius: 10rpx;
+  line-height: 48rpx;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 4rpx;
+  font-size: 20rpx;
+}
+.intergral-shop .top-info .message {
+  position: absolute;
+  line-height: 60rpx;
+  font-size: 22rpx;
+  color: #fff;
+  text-decoration: underline;
+  right: 51rpx;
+  bottom: 0rpx;
+  letter-spacing: 3rpx;
+}
+.intergral-shop .tab-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  height: 75rpx;
+  background-color: #f3f3f3;
+}
+.intergral-shop .tab-title .title-item {
+  position: relative;
+}
+.intergral-shop .tab-title .title-item .title {
+  font-size: 30rpx;
+}
+.intergral-shop .tab-title .title-item .title.active {
+  font-size: 34rpx;
+  font-weight: bold;
+}
+.intergral-shop .tab-title .title-item .bottom-line {
+  position: absolute;
+  height: 4rpx;
+  width: 100%;
+  background-color: #FF2F29;
+  bottom: -8rpx;
+  left: 0;
+}
+.intergral-shop .tab-content .goods-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 20rpx 54rpx;
+  border-bottom: 4rpx solid #eee;
+}
+.intergral-shop .tab-content .goods-item .left {
+  width: 197rpx;
+  height: 143rpx;
+  border-radius: 10rpx;
+}
+.intergral-shop .tab-content .goods-item .middle {
+  width: 264rpx;
+}
+.intergral-shop .tab-content .goods-item .middle .title {
+  font-size: 30rpx;
+  line-height: 59rpx;
+  letter-spacing: 3rpx;
+}
+.intergral-shop .tab-content .goods-item .middle .need-intergral {
+  letter-spacing: 3rpx;
+  font-size: 25rpx;
+  line-height: 59rpx;
+}
+.intergral-shop .tab-content .goods-item .middle .sales {
+  font-size: 25rpx;
+  letter-spacing: 3rpx;
+  color: #9fa0a0;
+  line-height: 59rpx;
+}
+.intergral-shop .tab-content .goods-item .exchange-btn {
+  width: 110rpx;
+  height: 48rpx;
+  background-color: #ff2f29;
+  border-radius: 10rpx;
+  line-height: 48rpx;
+  color: #fff;
+  letter-spacing: 4rpx;
+  font-size: 20rpx;
+  text-align: center;
+}
+

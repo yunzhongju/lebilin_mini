@@ -1,0 +1,11 @@
+{
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-nav-bar": "/node-modules/_@dcloudio_uni-ui@1.2.3@@dcloudio/uni-ui/lib/uni-nav-bar/uni-nav-bar",
+    "uni-card": "/node-modules/_@dcloudio_uni-ui@1.2.3@@dcloudio/uni-ui/lib/uni-card/uni-card",
+    "my-swiper": "/components/mySwiper",
+    "activity-swiper": "/components/activitySwiper",
+    "lb-picker": "/components/lb-picker/index"
+  }
+}

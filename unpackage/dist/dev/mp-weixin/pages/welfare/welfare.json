@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "福利",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "activity-swiper": "/components/activitySwiper",
+    "uni-nav-bar": "/node-modules/@dcloudio/uni-ui/lib/uni-nav-bar/uni-nav-bar"
+  }
+}

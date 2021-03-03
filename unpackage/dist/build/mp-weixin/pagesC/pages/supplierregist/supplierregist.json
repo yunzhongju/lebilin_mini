@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "社区供应商注册",
+  "usingComponents": {
+    "xfl-select": "/pagesC/components/xfl-select",
+    "neil-modal": "/pagesC/components/neil-modal",
+    "avatar": "/pagesC/components/yq-avatar"
+  }
+}

@@ -1,0 +1,800 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+				// "navigationBarTextStyle": "white"
+				// "navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/activity/activity",
+			"style": {
+				// "navigationBarBackgroundColor": "#FF2F29",
+				// "navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "活动"
+			}
+		},
+		{
+			"path": "pages/service/service",
+			"style": {
+				// "navigationBarBackgroundColor": "#FF2F29",
+				// "navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "服务"
+			}
+		},
+		{
+			"path": "pages/welfare/welfare",
+			"style": {
+				"navigationBarTitleText": "福利",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "乐比邻",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"selectedColor": "#FF3C4C",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "/static/home_icon/tab_home.png",
+				"selectedIconPath": "/static/home_icon/tab_home_s.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/activity/activity",
+				"iconPath": "/static/home_icon/tab_activity.png",
+				"selectedIconPath": "/static/home_icon/tab_activity_s.png",
+				"text": "活动"
+			},
+			{
+				"pagePath": "pages/service/service",
+				"iconPath": "/static/home_icon/tab_service.png",
+				"selectedIconPath": "/static/home_icon/tab_service_s.png",
+				"text": "服务"
+			},
+			{
+				"pagePath": "pages/welfare/welfare",
+				"iconPath": "/static/home_icon/tab_welfare.png",
+				"selectedIconPath": "/static/home_icon/tab_welfare_s.png",
+				"text": "福利"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"iconPath": "/static/home_icon/tab_mine.png",
+				"selectedIconPath": "/static/home_icon/tab_mine_s.png",
+				"text": "我的"
+			}
+		]
+	},
+	"subPackages": [{
+			"root": "pagesB",
+			"pages": [{
+					"path": "pages/volunteerneedknow/volunteerneedknow",
+					"style": {
+						"navigationBarTitleText": "志愿者"
+					}
+				}, {
+					"path": "pages/applyvolunteer/applyvolunteer",
+					"style": {
+						"navigationBarTitleText": "志愿者信息"
+					}
+				},
+				{
+					"path": "pages/dynamicdetail/dynamicdetail",
+					"style": {
+						// "navigationBarBackgroundColor": "#FF2F29",
+						// "navigationBarTextStyle": "white",
+						"enablePullDownRefresh": true,
+						"navigationBarTitleText": "动态详情"
+					}
+				},
+				{
+					"path": "pages/activitydetail/activitydetail",
+					"style": {
+						// "navigationBarBackgroundColor": "#FF2F29",
+						// "navigationBarTextStyle": "white",
+						"enablePullDownRefresh": true,
+						"navigationBarTitleText": "活动详情"
+					}
+				}, {
+					"path": "pages/allcircle/allcircle",
+					"style": {
+						"navigationBarBackgroundColor": "#fff",
+						"enablePullDownRefresh": true,
+						"navigationBarTitleText": "圈子"
+					}
+				}, {
+					"path": "pages/circledetail/circledetail",
+					"style": {
+						"enablePullDownRefresh": true,
+						"navigationBarTitleText": "活动详情"
+					}
+				}, {
+					"path": "pages/moreactivity/moreactivity",
+					"style": {
+						"navigationBarTitleText": "活动"
+					}
+				},
+				{
+					"path": "pages/reply/reply",
+					"style": {
+						"navigationBarTitleText": "回复"
+					}
+				}, {
+					"path": "pages/createcircle/createcircle",
+					"style": {
+						"navigationBarTitleText": "新建圈子"
+					}
+				}, {
+					"path": "pages/volunteerteam/volunteerteam",
+					"style": {
+						"navigationBarTitleText": "活动详情"
+					}
+				}, {
+					"path": "pages/chooseaddr/chooseaddr",
+					"style": {
+						"navigationBarTitleText": "街道选择"
+					}
+				}, {
+					"path": "pages/createactivity/createactivity",
+					"style": {
+						"navigationBarTitleText": "发布活动"
+					}
+
+				}, {
+					"path": "pages/homesearchresult/homesearchresult",
+					"style": {
+						"enablePullDownRefresh": true,
+						"navigationBarTitleText": "搜索"
+					}
+				}, {
+					"path": "pages/mineinfo/mineinfo",
+					"style": {
+						"navigationBarTitleText": "个人信息"
+					}
+				}, {
+					"path": "pages/release/release",
+					"style": {
+						"navigationBarTitleText": "发表评论"
+					}
+				}, {
+					"path": "pages/hopemain/hopemain",
+					"style": {
+						"enablePullDownRefresh": true,
+						"navigationBarTitleText": "居民心愿"
+					}
+				}, {
+					"path": "pages/hopeevaluation/hopeevaluation",
+					"style": {
+						"navigationBarTitleText": "心愿详情"
+					}
+				}, {
+					"path": "pages/hopecreate/hopecreate",
+					"style": {
+						"navigationBarTitleText": "发布心愿"
+					}
+				}, {
+					"path": "pages/foundvolunteer/foundvolunteer",
+					"style": {
+						"enablePullDownRefresh": true
+					}
+				}, {
+					"path": "pages/servicefill/servicefill",
+					"style": {
+						"navigationBarTitleText": "服务填写"
+					}
+				}, {
+					"path": "pages/innovationmain/innovationmain",
+					"style": {
+						"navigationBarTitleText": "创新创业",
+						"enablePullDownRefresh": true
+					}
+				}, {
+					"path": "pages/innovationinterprisedetail/innovationinterprisedetail",
+					"style": {
+						"navigationBarTitleText": "企业详情"
+					}
+				}, {
+					"path": "pages/imgPreview/imgPreview",
+					"style": {
+						"navigationBarTitleText": "查看"
+					}
+				}, {
+					"path": "pages/innovationworkdetail/innovationworkdetail",
+					"style": {
+						"navigationBarTitleText": "办事详情"
+					}
+				}, {
+					"path": "pages/guideaction/guideaction",
+					"style": {
+						"navigationBarTitleText": "办事指南"
+					}
+				}, {
+					"path": "pages/merchantinfo/merchantinfo",
+					"style": {
+						"navigationBarTitleText": "商家信息"
+					}
+				}, {
+					"path": "pages/innovationdetail/innovationdetail",
+					"style": {
+						"navigationBarTitleText": "详情"
+					}
+				}
+			]
+		},
+		{
+			"root": "pagesC",
+			"pages": [{
+				"path": "pages/topay/topay",
+				"style": {
+					"navigationBarTitleText": "支付",
+					"navigationStyle": "custom"
+				}
+			}, {
+				"path": "pages/choosesupplier/choosesupplier",
+				"style": {
+					"navigationBarTitleText": "选择供应商"
+				}
+			}, {
+				"path": "pages/choosereferance/choosereferance",
+				"style": {
+					"navigationBarTitleText": "选择自提点"
+				}
+			}, {
+				"path": "pages/myorder/myorder",
+				"style": {
+					"navigationBarTitleText": "我的订单",
+					"enablePullDownRefresh": true
+				}
+			}, {
+				"path": "pages/addpersonal/addpersonal",
+				"style": {
+					"navigationBarTitleText": "添加核销人员"
+				}
+			}, {
+				"path": "pages/shippingaddress/shippingaddress",
+				"style": {
+					"navigationBarTitleText": "收货地址管理"
+				}
+			}, {
+				"path": "pages/addaddress/addaddress",
+				"style": {
+					"navigationBarTitleText": "收货地址管理"
+				}
+			}, {
+				"path": "pages/goodsshelves/goodsshelves",
+				"style": {
+					"navigationBarTitleText": "选择商品",
+					"enablePullDownRefresh": true
+				}
+			}, {
+				"path": "pages/goodsdetail/goodsdetail",
+				"style": {
+					"navigationBarTitleText": "商品详情"
+				}
+			}, {
+				"path": "pages/shopmanage/shopmanage",
+				"style": {
+					"navigationBarTitleText": "店铺管理"
+				}
+			}, {
+				"path": "pages/shopcar/shopcar",
+				"style": {
+					"navigationBarTitleText": "购物车",
+					"disableScroll": true,
+					"app-plus": {
+						"bounce": "none"
+					}
+				}
+			}, {
+				"path": "pages/intergralshop/intergralshop",
+				"style": {
+					"navigationBarTitleText": "积分商城"
+				}
+			}, {
+				"path": "pages/sureorder/sureorder",
+				"style": {
+					"navigationBarTitleText": "确认订单"
+				}
+			}, {
+				"path": "pages/settltcommunity/settltcommunity",
+				"style": {
+					"navigationBarTitleText": "入驻社区商圈"
+				}
+			}, {
+				"path": "pages/goodsmanage/goodsmanage",
+				"style": {
+					"navigationBarTitleText": "商品管理详情"
+				}
+			}, {
+				"path": "pages/supplierregist/supplierregist",
+				"style": {
+					"navigationBarTitleText": "社区供应商注册"
+				}
+			}, {
+				"path": "pages/storemanager/storemanager",
+				"style": {
+					"navigationBarTitleText": "店长入驻"
+				}
+			}, {
+				"path": "pages/addstore/addstore",
+				"style": {
+					"navigationBarTitleText": "开店"
+				}
+			}, {
+				"path": "pages/sortsign/sortsign",
+				"style": {
+					"navigationBarTitleText": "签到"
+				}
+			}, {
+				"path": "pages/volunteerinfo/volunteerinfo",
+				"style": {
+					"navigationBarTitleText": "志愿者信息"
+				}
+			}, {
+				"path": "pages/union/union",
+				"style": {
+					"navigationBarTitleText": "居商联盟",
+					"enablePullDownRefresh": true
+				}
+			}, {
+				"path": "pages/goodsseachresult/goodsseachresult",
+				"style": {
+					"navigationBarTitleText": "搜索结果",
+					"enablePullDownRefresh": true
+				}
+			}, {
+				"path": "pages/storeincome/storeincome",
+				"style": {
+					"navigationBarTitleText": "店铺收益"
+				}
+			}, {
+				"path": "pages/mymessage/mymessage",
+				"style": {
+					"navigationBarTitleText": "消息"
+				}
+			}, {
+				"path": "pages/choosestore/choosestore",
+				"style": {
+					"navigationBarTitleText": "选择店铺",
+					"enablePullDownRefresh": true
+				}
+			}, {
+				"path": "pages/playwithintegral/playwithintegral",
+				"style": {
+					"navigationBarTitleText": "玩转积分",
+					"navigationBarBackgroundColor": "#FF2F29",
+					"navigationBarTextStyle": "white"
+				}
+			}, {
+				"path": "pages/mybill/mybill",
+				"style": {
+					"navigationBarTitleText": "用户清单",
+					"enablePullDownRefresh": true
+				}
+			}, {
+				"path": "pages/integralgoodsdetail/integralgoodsdetail",
+				"style": {
+					"navigationBarTitleText": "产品详情"
+				}
+			}, {
+				"path": "pages/withdrawals/withdrawals",
+				"style": {
+					"navigationBarTitleText": "余额提现"
+				}
+			}, {
+				"path": "pages/exchangerecord/exchangerecord",
+				"style": {
+					"navigationBarTitleText": "兑换记录"
+				}
+			}, {
+				"path": "pages/storeorder/storeorder",
+				"style": {
+					"navigationBarTitleText": "店铺订单",
+					"enablePullDownRefresh": true
+				}
+			}, {
+				"path": "pages/chooseaddress/chooseaddress",
+				"style": {
+					"navigationBarTitleText": "选择收货地址"
+				}
+			}, {
+				"path": "pages/orderdetail/orderdetail",
+				"style": {
+					"navigationBarTitleText": "订单详情"
+				}
+			}, {
+				"path": "pages/Informationdisclosure/Informationdisclosure",
+				"style": {
+					"navigationBarTitleText": "信息公开"
+				}
+			}, {
+				"path": "pages/projectdetail/projectdetail",
+				"style": {
+					"navigationBarTitleText": "项目详情"
+				}
+			}, {
+				"path": "pages/documentdetail/documentdetail",
+				"style": {
+					"navigationBarTitleText": "文件详情"
+				}
+			}]
+		}
+	],
+	"preloadRule": {
+		"pages/index/index": {
+			"network": "all",
+			"packages": ["pagesB"]
+		},
+		"pages/activity/activity": {
+			"network": "all",
+			"packages": ["pagesB"]
+		},
+		"pages/mine/mine": {
+			"network": "all",
+			"packages": ["pagesB"]
+		},
+		"pages/welfare/welfare": {
+			"network": "all",
+			"packages": ["pagesC"]
+		}
+	},
+	"condition": {
+		"current": 0,
+		"list": [{
+				"name": "active", //活动
+				"path": "pages/activity/activity" //启动页面，必选
+				//"query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "document-detail", //项目文件详情
+				"path": "pagesC/pages/documentdetail/documentdetail" //启动页面，必选
+				// "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "project-detail", //项目详情
+				"path": "pagesC/pages/projectdetail/projectdetail" //启动页面，必选
+				// "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "Information-disclosure", //信息公开
+				"path": "pagesC/pages/Informationdisclosure/Informationdisclosure" //启动页面，必选
+				// "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "order-detail", //创新文章详情
+				"path": "pagesC/pages/orderdetail/orderdetail" //启动页面，必选
+				// "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "innovation-detail", //创新文章详情
+				"path": "pagesB/pages/innovationdetail/innovationdetail" //启动页面，必选
+				// "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "choose-address", //积分商品详情
+				"path": "pagesC/pages/chooseaddress/chooseaddress" //启动页面，必选
+				// "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "store-order", //积分商品详情
+				"path": "pagesC/pages/storeorder/storeorder" //启动页面，必选
+				// "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "exchange-record", //积分商品详情
+				"path": "pagesC/pages/exchangerecord/exchangerecord" //启动页面，必选
+				// "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "withdrawals", //积分商品详情
+				"path": "pagesC/pages/withdrawals/withdrawals" //启动页面，必选
+				// "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "integral-goods-detail", //积分商品详情
+				"path": "pagesC/pages/integralgoodsdetail/integralgoodsdetail" //启动页面，必选
+				// "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "my-bill", //用户清单
+				"path": "pagesC/pages/mybill/mybill" //启动页面，必选
+				// "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "play-with-integral", //玩转积分
+				"path": "pagesC/pages/playwithintegral/playwithintegral" //启动页面，必选
+				// "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "choose-store", //选择店铺
+				"path": "pagesC/pages/choosestore/choosestore" //启动页面，必选
+				// "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "my-message", //消息
+				"path": "pagesC/pages/mymessage/mymessage" //启动页面，必选
+				// "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "store-income", //店铺收益
+				"path": "pagesC/pages/storeincome/storeincome" //启动页面，必选
+				// "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "goods-search-result", //商品搜索结果
+				"path": "pagesC/pages/goodsseachresult/goodsseachresult" //启动页面，必选
+				// "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "union", //志愿者信息
+				"path": "pagesC/pages/union/union" //启动页面，必选
+				// "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "volunteer-info", //志愿者信息
+				"path": "pagesC/pages/volunteerinfo/volunteerinfo" //启动页面，必选
+				// "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "sort-sign", //签到
+				"path": "pagesC/pages/sortsign/sortsign" //启动页面，必选
+				// "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "add-store", //店长入驻
+				"path": "pagesC/pages/addstore/addstore" //启动页面，必选
+				// "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "store-manager", //店长入驻
+				"path": "pagesC/pages/storemanager/storemanager" //启动页面，必选
+				// "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "supplier-regist", //社区供应商注册
+				"path": "pagesC/pages/supplierregist/supplierregist" //启动页面，必选
+				// "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "goods-manage", //商品管理详情
+				"path": "pagesC/pages/goodsmanage/goodsmanage" //启动页面，必选
+				// "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "settle-community", //入驻社区商圈
+				"path": "pagesC/pages/settltcommunity/settltcommunity" //启动页面，必选
+				// "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "sure-order", //确认订单
+				"path": "pagesC/pages/sureorder/sureorder" //启动页面，必选
+				// "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "intergral-shop", //积分商城
+				"path": "pagesC/pages/intergralshop/intergralshop" //启动页面，必选
+				// "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "shop-car", //购物车
+				"path": "pagesC/pages/shopcar/shopcar" //启动页面，必选
+				// "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "shop-manage", //店铺管理
+				"path": "pagesC/pages/shopmanage/shopmanage" //启动页面，必选
+				// "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "goods-detail", //商品详情
+				"path": "pagesC/pages/goodsdetail/goodsdetail" //启动页面，必选
+				// "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "goods-shelves", //收货地址管理
+				"path": "pagesC/pages/goodsshelves/goodsshelves" //启动页面，必选
+				// "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "add-address", //收货地址管理
+				"path": "pagesC/pages/addaddress/addaddress" //启动页面，必选
+				// "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "shipping-address", //收货地址管理
+				"path": "pagesC/pages/shippingaddress/shippingaddress" //启动页面，必选
+				// "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "add-personal", //添加核销人员
+				"path": "pagesC/pages/addpersonal/addpersonal" //启动页面，必选
+				// "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "choose-referance", //选择自提点
+				"path": "pagesC/pages/choosereferance/choosereferance" //启动页面，必选
+				// "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "choose-supplier", //选择供应商
+				"path": "pagesC/pages/choosesupplier/choosesupplier" //启动页面，必选
+				// "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "to-pay", //去支付
+				"path": "pagesC/pages/topay/topay" //启动页面，必选
+				// "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "my-order", //我的订单
+				"path": "pagesC/pages/myorder/myorder" //启动页面，必选
+				// "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "active-detail", //活动详情
+				"path": "pagesB/pages/activitydetail/activitydetail", //启动页面，必选
+				"query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "reply", //回复
+				"path": "pagesB/pages/reply/reply" //启动页面，必选
+				//"query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "service", //服务
+				"path": "pages/service/service" //启动页面，必选
+				//"query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "activity-more", //更多活动
+				"path": "pagesB/pages/moreactivity/moreactivity" //启动页面，必选
+				//"query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "all-circle", //所有权自
+				"path": "pagesB/pages/allcircle/allcircle" //启动页面，必选
+				//"query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "circle-detail", //圈子详情
+				"path": "pagesB/pages/circledetail/circledetail", //启动页面，必选
+				"query": "circleId=34531792-aef2-4f9b-ac3b-8c7972ce2be2&isCreater=true" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "welfare", //福利
+				"path": "pages/welfare/welfare" //启动页面，必选
+				//"query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "mine", //我的
+				"path": "pages/mine/mine" //启动页面，必选
+				//"query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "volunteer-needknow", //志愿者须知
+				"path": "pagesB/pages/volunteerneedknow/volunteerneedknow" //启动页面，必选
+				//"query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "apply-volunteer", //申请成为志愿者
+				"path": "pagesB/pages/applyvolunteer/applyvolunteer" //启动页面，必选
+				//"query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "dynamic-detail", //动态详情
+				"path": "pagesB/pages/dynamicdetail/dynamicdetail" //启动页面，必选
+				//"query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "create-circle", //新建圈子
+				"path": "pagesB/pages/createcircle/createcircle" //启动页面，必选
+				// "query": "circleId=34531792-aef2-4f9b-ac3b-8c7972ce2be2&code=1" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "volunteer-team", //志愿者服务队
+				"path": "pagesB/pages/volunteerteam/volunteerteam" //启动页面，必选
+				//"query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "choose-addr", //街道选择
+				"path": "pagesB/pages/chooseaddr/chooseaddr" //启动页面，必选
+				//"query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "create-activity", //创建活动
+				"path": "pagesB/pages/createactivity/createactivity" //启动页面，必选
+				//"query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "home-search-result", //首页地址选择结果
+				"path": "pagesB/pages/homesearchresult/homesearchresult" //启动页面，必选
+				//"query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "mine-info", //个人信息
+				"path": "pagesB/pages/mineinfo/mineinfo" //启动页面，必选
+				//"query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "release", //评论
+				"path": "pagesB/pages/release/release" //启动页面，必选
+				//"query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+			},
+
+			{
+				"name": "hope-main", //居民心愿
+				"path": "pagesB/pages/hopemain/hopemain" //启动页面，必选
+				//"query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "hope-evaluation", //心愿评价
+				"path": "pagesB/pages/hopeevaluation/hopeevaluation" //启动页面，必选
+				//"query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "hope-create", //心愿发布
+				"path": "pagesB/pages/hopecreate/hopecreate" //启动页面，必选
+				//"query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "found-volunteer", //找志愿者和党员
+				"path": "pagesB/pages/foundvolunteer/foundvolunteer" //启动页面，必选
+				//"query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "service-fill", //找志愿者和党员
+				"path": "pagesB/pages/servicefill/servicefill" //启动页面，必选
+				//"query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "innovation-main", //创新创业
+				"path": "pagesB/pages/innovationmain/innovationmain" //启动页面，必选
+				//"query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "innovation-work-detail", //办事详情
+				"path": "pagesB/pages/innovationworkdetail/innovationworkdetail" //启动页面，必选
+				//"query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "guide-action", //办事指南
+				"path": "pagesB/pages/guideaction/guideaction" //启动页面，必选
+				//"query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "innovation-enterprise-detail", //企业详情
+				"path": "pagesB/pages/innovationinterprisedetail/innovationinterprisedetail" //启动页面，必选
+				//"query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "img-preview", //预览图片
+				"path": "pagesB/pages/imgPreview/imgPreview" //启动页面，必选
+				//"query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "merchant-info", //预览图片
+				"path": "pagesB/pages/merchantinfo/merchantinfo" //启动页面，必选
+				//"query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+			}
+		]
+	}
+
+}

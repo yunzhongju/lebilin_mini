@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "商品详情",
+  "usingComponents": {
+    "popup-layer": "/pagesC/components/popup-layer"
+  }
+}

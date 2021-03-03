@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "发布心愿",
+  "usingComponents": {
+    "xfl-select": "/pagesB/components/xfl-select",
+    "yu-datetime-picker": "/pagesB/components/yu-datetime-picker"
+  }
+}

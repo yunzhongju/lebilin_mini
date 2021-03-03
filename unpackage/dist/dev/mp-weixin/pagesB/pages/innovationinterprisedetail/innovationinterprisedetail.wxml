@@ -1,0 +1,1 @@
+<view class="innovation-enterprise-detail"><text class="title">{{item.supplierName}}</text><image class="logo" src="{{item.thumbnail}}" mode></image><rich-text class="font24" nodes="{{Strings}}"></rich-text></view>

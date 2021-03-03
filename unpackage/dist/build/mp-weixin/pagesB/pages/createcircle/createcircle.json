@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "新建圈子",
+  "usingComponents": {
+    "avatar": "/pagesB/components/yq-avatar"
+  }
+}

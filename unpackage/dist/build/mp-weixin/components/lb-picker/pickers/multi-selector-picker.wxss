@@ -1,0 +1,1 @@
+.picker-item .lb-picker-column{padding:0;font-size:36rpx;text-align:center;box-sizing:border-box;text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.picker-item .lb-picker-column .lb-picker-column-label{-webkit-transition:all .3s;transition:all .3s}

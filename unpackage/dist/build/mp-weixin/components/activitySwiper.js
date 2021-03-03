@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/activitySwiper"],{"57e2":function(t,e,n){"use strict";var r=n("e19d"),u=n.n(r);u.a},"5eaa":function(t,e,n){"use strict";n.r(e);var r=n("b447"),u=n("cdef");for(var a in u)"default"!==a&&function(t){n.d(e,t,(function(){return u[t]}))}(a);n("57e2");var i,o=n("f0c5"),c=Object(o["a"])(u["default"],r["b"],r["c"],!1,null,null,null,!1,r["a"],i);e["default"]=c.exports},b447:function(t,e,n){"use strict";var r;n.d(e,"b",(function(){return u})),n.d(e,"c",(function(){return a})),n.d(e,"a",(function(){return r}));var u=function(){var t=this,e=t.$createElement;t._self._c},a=[]},cdef:function(t,e,n){"use strict";n.r(e);var r=n("d055"),u=n.n(r);for(var a in r)"default"!==a&&function(t){n.d(e,t,(function(){return r[t]}))}(a);e["default"]=u.a},d055:function(t,e,n){"use strict";(function(t){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var n={props:{imgs:{type:Array},jumpMsg:{type:Array},indicatoractivecolor:{type:String,default:"#0DBA09"},height:{type:Number,default:280},indicatorDots:{type:Boolean,default:!1},autoplay:{type:Boolean,default:!1},interval:{type:Number,default:5e3},duration:{type:Number,default:500},circular:{type:Boolean,default:!0},vertical:{type:Boolean,default:!1},previousMargin:{type:String,default:"0rpx"},nextMargin:{type:String,default:"0rpx"},radius:{type:String,default:"20"}},data:function(){return{currentIndex:0}},methods:{jumpFun:function(){this.jumpMsg[this.currentIndex].jump&&t.navigateTo({url:this.jumpMsg[this.currentIndex].jumpUrl})},showInfo:function(t){this.currentIndex=t.target.current}},beforeDestroy:function(){this.currentIndex=0}};e.default=n}).call(this,n("543d")["default"])},e19d:function(t,e,n){}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/activitySwiper-create-component',
+    {
+        'components/activitySwiper-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("5eaa"))
+        })
+    },
+    [['components/activitySwiper-create-component']]
+]);

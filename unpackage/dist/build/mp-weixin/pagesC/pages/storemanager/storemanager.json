@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "店长入驻",
+  "usingComponents": {
+    "neil-modal": "/pagesC/components/neil-modal"
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/activity/activity",
+    "pages/service/service",
+    "pages/welfare/welfare",
+    "pages/mine/mine"
+  ],
+  "subPackages": [
+    {
+      "root": "pagesB",
+      "pages": [
+        "pages/volunteerneedknow/volunteerneedknow",
+        "pages/applyvolunteer/applyvolunteer",
+        "pages/dynamicdetail/dynamicdetail",
+        "pages/activitydetail/activitydetail",
+        "pages/allcircle/allcircle",
+        "pages/circledetail/circledetail",
+        "pages/moreactivity/moreactivity",
+        "pages/reply/reply",
+        "pages/createcircle/createcircle",
+        "pages/volunteerteam/volunteerteam",
+        "pages/chooseaddr/chooseaddr",
+        "pages/createactivity/createactivity",
+        "pages/homesearchresult/homesearchresult",
+        "pages/mineinfo/mineinfo",
+        "pages/release/release",
+        "pages/hopemain/hopemain",
+        "pages/hopeevaluation/hopeevaluation",
+        "pages/hopecreate/hopecreate",
+        "pages/foundvolunteer/foundvolunteer",
+        "pages/servicefill/servicefill",
+        "pages/innovationmain/innovationmain",
+        "pages/innovationinterprisedetail/innovationinterprisedetail",
+        "pages/imgPreview/imgPreview",
+        "pages/innovationworkdetail/innovationworkdetail",
+        "pages/guideaction/guideaction",
+        "pages/merchantinfo/merchantinfo",
+        "pages/innovationdetail/innovationdetail"
+      ]
+    },
+    {
+      "root": "pagesC",
+      "pages": [
+        "pages/topay/topay",
+        "pages/choosesupplier/choosesupplier",
+        "pages/choosereferance/choosereferance",
+        "pages/myorder/myorder",
+        "pages/addpersonal/addpersonal",
+        "pages/shippingaddress/shippingaddress",
+        "pages/addaddress/addaddress",
+        "pages/goodsshelves/goodsshelves",
+        "pages/goodsdetail/goodsdetail",
+        "pages/shopmanage/shopmanage",
+        "pages/shopcar/shopcar",
+        "pages/intergralshop/intergralshop",
+        "pages/sureorder/sureorder",
+        "pages/settltcommunity/settltcommunity",
+        "pages/goodsmanage/goodsmanage",
+        "pages/supplierregist/supplierregist",
+        "pages/storemanager/storemanager",
+        "pages/addstore/addstore",
+        "pages/sortsign/sortsign",
+        "pages/volunteerinfo/volunteerinfo",
+        "pages/union/union",
+        "pages/goodsseachresult/goodsseachresult",
+        "pages/storeincome/storeincome",
+        "pages/mymessage/mymessage",
+        "pages/choosestore/choosestore",
+        "pages/playwithintegral/playwithintegral",
+        "pages/mybill/mybill",
+        "pages/integralgoodsdetail/integralgoodsdetail",
+        "pages/withdrawals/withdrawals",
+        "pages/exchangerecord/exchangerecord",
+        "pages/storeorder/storeorder",
+        "pages/chooseaddress/chooseaddress",
+        "pages/orderdetail/orderdetail",
+        "pages/Informationdisclosure/Informationdisclosure",
+        "pages/projectdetail/projectdetail",
+        "pages/documentdetail/documentdetail"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "乐比邻",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#FF3C4C",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/static/home_icon/tab_home.png",
+        "selectedIconPath": "/static/home_icon/tab_home_s.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/activity/activity",
+        "iconPath": "/static/home_icon/tab_activity.png",
+        "selectedIconPath": "/static/home_icon/tab_activity_s.png",
+        "text": "活动"
+      },
+      {
+        "pagePath": "pages/service/service",
+        "iconPath": "/static/home_icon/tab_service.png",
+        "selectedIconPath": "/static/home_icon/tab_service_s.png",
+        "text": "服务"
+      },
+      {
+        "pagePath": "pages/welfare/welfare",
+        "iconPath": "/static/home_icon/tab_welfare.png",
+        "selectedIconPath": "/static/home_icon/tab_welfare_s.png",
+        "text": "福利"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "/static/home_icon/tab_mine.png",
+        "selectedIconPath": "/static/home_icon/tab_mine_s.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "preloadRule": {
+    "pages/index/index": {
+      "network": "all",
+      "packages": [
+        "pagesB"
+      ]
+    },
+    "pages/activity/activity": {
+      "network": "all",
+      "packages": [
+        "pagesB"
+      ]
+    },
+    "pages/mine/mine": {
+      "network": "all",
+      "packages": [
+        "pagesB"
+      ]
+    },
+    "pages/welfare/welfare": {
+      "network": "all",
+      "packages": [
+        "pagesC"
+      ]
+    }
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于获取附近店铺,附近居商联盟等"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap27.json"
+}

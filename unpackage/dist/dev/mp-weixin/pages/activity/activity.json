@@ -1,0 +1,8 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "活动",
+  "usingComponents": {
+    "my-swiper": "/components/mySwiper",
+    "activity-swiper": "/components/activitySwiper"
+  }
+}

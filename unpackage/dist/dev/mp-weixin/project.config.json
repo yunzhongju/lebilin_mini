@@ -1,0 +1,468 @@
+{
+  "description": "项目配置文件。",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": false,
+    "postcss": false,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": false,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "useApiHostProcess": false,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "enableEngineNative": false,
+    "bundle": false,
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "",
+  "appid": "wxf18cafbe49425374",
+  "projectname": "uni-mp-lhsf",
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": 0,
+          "name": "active",
+          "pathName": "pages/activity/activity",
+          "query": ""
+        },
+        {
+          "id": 1,
+          "name": "document-detail",
+          "pathName": "pagesC/pages/documentdetail/documentdetail",
+          "query": ""
+        },
+        {
+          "id": 2,
+          "name": "project-detail",
+          "pathName": "pagesC/pages/projectdetail/projectdetail",
+          "query": ""
+        },
+        {
+          "id": 3,
+          "name": "Information-disclosure",
+          "pathName": "pagesC/pages/Informationdisclosure/Informationdisclosure",
+          "query": ""
+        },
+        {
+          "id": 4,
+          "name": "order-detail",
+          "pathName": "pagesC/pages/orderdetail/orderdetail",
+          "query": ""
+        },
+        {
+          "id": 5,
+          "name": "innovation-detail",
+          "pathName": "pagesB/pages/innovationdetail/innovationdetail",
+          "query": ""
+        },
+        {
+          "id": 6,
+          "name": "choose-address",
+          "pathName": "pagesC/pages/chooseaddress/chooseaddress",
+          "query": ""
+        },
+        {
+          "id": 7,
+          "name": "store-order",
+          "pathName": "pagesC/pages/storeorder/storeorder",
+          "query": ""
+        },
+        {
+          "id": 8,
+          "name": "exchange-record",
+          "pathName": "pagesC/pages/exchangerecord/exchangerecord",
+          "query": ""
+        },
+        {
+          "id": 9,
+          "name": "withdrawals",
+          "pathName": "pagesC/pages/withdrawals/withdrawals",
+          "query": ""
+        },
+        {
+          "id": 10,
+          "name": "integral-goods-detail",
+          "pathName": "pagesC/pages/integralgoodsdetail/integralgoodsdetail",
+          "query": ""
+        },
+        {
+          "id": 11,
+          "name": "my-bill",
+          "pathName": "pagesC/pages/mybill/mybill",
+          "query": ""
+        },
+        {
+          "id": 12,
+          "name": "play-with-integral",
+          "pathName": "pagesC/pages/playwithintegral/playwithintegral",
+          "query": ""
+        },
+        {
+          "id": 13,
+          "name": "choose-store",
+          "pathName": "pagesC/pages/choosestore/choosestore",
+          "query": ""
+        },
+        {
+          "id": 14,
+          "name": "my-message",
+          "pathName": "pagesC/pages/mymessage/mymessage",
+          "query": ""
+        },
+        {
+          "id": 15,
+          "name": "store-income",
+          "pathName": "pagesC/pages/storeincome/storeincome",
+          "query": ""
+        },
+        {
+          "id": 16,
+          "name": "goods-search-result",
+          "pathName": "pagesC/pages/goodsseachresult/goodsseachresult",
+          "query": ""
+        },
+        {
+          "id": 17,
+          "name": "union",
+          "pathName": "pagesC/pages/union/union",
+          "query": ""
+        },
+        {
+          "id": 18,
+          "name": "volunteer-info",
+          "pathName": "pagesC/pages/volunteerinfo/volunteerinfo",
+          "query": ""
+        },
+        {
+          "id": 19,
+          "name": "sort-sign",
+          "pathName": "pagesC/pages/sortsign/sortsign",
+          "query": ""
+        },
+        {
+          "id": 20,
+          "name": "add-store",
+          "pathName": "pagesC/pages/addstore/addstore",
+          "query": ""
+        },
+        {
+          "id": 21,
+          "name": "store-manager",
+          "pathName": "pagesC/pages/storemanager/storemanager",
+          "query": ""
+        },
+        {
+          "id": 22,
+          "name": "supplier-regist",
+          "pathName": "pagesC/pages/supplierregist/supplierregist",
+          "query": ""
+        },
+        {
+          "id": 23,
+          "name": "goods-manage",
+          "pathName": "pagesC/pages/goodsmanage/goodsmanage",
+          "query": ""
+        },
+        {
+          "id": 24,
+          "name": "settle-community",
+          "pathName": "pagesC/pages/settltcommunity/settltcommunity",
+          "query": ""
+        },
+        {
+          "id": 25,
+          "name": "sure-order",
+          "pathName": "pagesC/pages/sureorder/sureorder",
+          "query": ""
+        },
+        {
+          "id": 26,
+          "name": "intergral-shop",
+          "pathName": "pagesC/pages/intergralshop/intergralshop",
+          "query": ""
+        },
+        {
+          "id": 27,
+          "name": "shop-car",
+          "pathName": "pagesC/pages/shopcar/shopcar",
+          "query": ""
+        },
+        {
+          "id": 28,
+          "name": "shop-manage",
+          "pathName": "pagesC/pages/shopmanage/shopmanage",
+          "query": ""
+        },
+        {
+          "id": 29,
+          "name": "goods-detail",
+          "pathName": "pagesC/pages/goodsdetail/goodsdetail",
+          "query": ""
+        },
+        {
+          "id": 30,
+          "name": "goods-shelves",
+          "pathName": "pagesC/pages/goodsshelves/goodsshelves",
+          "query": ""
+        },
+        {
+          "id": 31,
+          "name": "add-address",
+          "pathName": "pagesC/pages/addaddress/addaddress",
+          "query": ""
+        },
+        {
+          "id": 32,
+          "name": "shipping-address",
+          "pathName": "pagesC/pages/shippingaddress/shippingaddress",
+          "query": ""
+        },
+        {
+          "id": 33,
+          "name": "add-personal",
+          "pathName": "pagesC/pages/addpersonal/addpersonal",
+          "query": ""
+        },
+        {
+          "id": 34,
+          "name": "choose-referance",
+          "pathName": "pagesC/pages/choosereferance/choosereferance",
+          "query": ""
+        },
+        {
+          "id": 35,
+          "name": "choose-supplier",
+          "pathName": "pagesC/pages/choosesupplier/choosesupplier",
+          "query": ""
+        },
+        {
+          "id": 36,
+          "name": "to-pay",
+          "pathName": "pagesC/pages/topay/topay",
+          "query": ""
+        },
+        {
+          "id": 37,
+          "name": "my-order",
+          "pathName": "pagesC/pages/myorder/myorder",
+          "query": ""
+        },
+        {
+          "id": 38,
+          "name": "active-detail",
+          "pathName": "pagesB/pages/activitydetail/activitydetail",
+          "query": "activityId=577faa98-f478-48b7-825c-b8c2e92a5773"
+        },
+        {
+          "id": 39,
+          "name": "reply",
+          "pathName": "pagesB/pages/reply/reply",
+          "query": ""
+        },
+        {
+          "id": 40,
+          "name": "service",
+          "pathName": "pages/service/service",
+          "query": ""
+        },
+        {
+          "id": 41,
+          "name": "activity-more",
+          "pathName": "pagesB/pages/moreactivity/moreactivity",
+          "query": ""
+        },
+        {
+          "id": 42,
+          "name": "all-circle",
+          "pathName": "pagesB/pages/allcircle/allcircle",
+          "query": ""
+        },
+        {
+          "id": 43,
+          "name": "circle-detail",
+          "pathName": "pagesB/pages/circledetail/circledetail",
+          "query": "circleId=34531792-aef2-4f9b-ac3b-8c7972ce2be2&isCreater=true"
+        },
+        {
+          "id": 44,
+          "name": "welfare",
+          "pathName": "pages/welfare/welfare",
+          "query": ""
+        },
+        {
+          "id": 45,
+          "name": "mine",
+          "pathName": "pages/mine/mine",
+          "query": ""
+        },
+        {
+          "id": 46,
+          "name": "volunteer-needknow",
+          "pathName": "pagesB/pages/volunteerneedknow/volunteerneedknow",
+          "query": ""
+        },
+        {
+          "id": 47,
+          "name": "apply-volunteer",
+          "pathName": "pagesB/pages/applyvolunteer/applyvolunteer",
+          "query": ""
+        },
+        {
+          "id": 48,
+          "name": "dynamic-detail",
+          "pathName": "pagesB/pages/dynamicdetail/dynamicdetail",
+          "query": ""
+        },
+        {
+          "id": 49,
+          "name": "create-circle",
+          "pathName": "pagesB/pages/createcircle/createcircle",
+          "query": ""
+        },
+        {
+          "id": 50,
+          "name": "volunteer-team",
+          "pathName": "pagesB/pages/volunteerteam/volunteerteam",
+          "query": ""
+        },
+        {
+          "id": 51,
+          "name": "choose-addr",
+          "pathName": "pagesB/pages/chooseaddr/chooseaddr",
+          "query": ""
+        },
+        {
+          "id": 52,
+          "name": "create-activity",
+          "pathName": "pagesB/pages/createactivity/createactivity",
+          "query": ""
+        },
+        {
+          "id": 53,
+          "name": "home-search-result",
+          "pathName": "pagesB/pages/homesearchresult/homesearchresult",
+          "query": ""
+        },
+        {
+          "id": 54,
+          "name": "mine-info",
+          "pathName": "pagesB/pages/mineinfo/mineinfo",
+          "query": ""
+        },
+        {
+          "id": 55,
+          "name": "release",
+          "pathName": "pagesB/pages/release/release",
+          "query": ""
+        },
+        {
+          "id": 56,
+          "name": "hope-main",
+          "pathName": "pagesB/pages/hopemain/hopemain",
+          "query": ""
+        },
+        {
+          "id": 57,
+          "name": "hope-evaluation",
+          "pathName": "pagesB/pages/hopeevaluation/hopeevaluation",
+          "query": ""
+        },
+        {
+          "id": 58,
+          "name": "hope-create",
+          "pathName": "pagesB/pages/hopecreate/hopecreate",
+          "query": ""
+        },
+        {
+          "id": 59,
+          "name": "found-volunteer",
+          "pathName": "pagesB/pages/foundvolunteer/foundvolunteer",
+          "query": ""
+        },
+        {
+          "id": 60,
+          "name": "service-fill",
+          "pathName": "pagesB/pages/servicefill/servicefill",
+          "query": ""
+        },
+        {
+          "id": 61,
+          "name": "innovation-main",
+          "pathName": "pagesB/pages/innovationmain/innovationmain",
+          "query": ""
+        },
+        {
+          "id": 62,
+          "name": "innovation-work-detail",
+          "pathName": "pagesB/pages/innovationworkdetail/innovationworkdetail",
+          "query": ""
+        },
+        {
+          "id": 63,
+          "name": "guide-action",
+          "pathName": "pagesB/pages/guideaction/guideaction",
+          "query": ""
+        },
+        {
+          "id": 64,
+          "name": "innovation-enterprise-detail",
+          "pathName": "pagesB/pages/innovationinterprisedetail/innovationinterprisedetail",
+          "query": ""
+        },
+        {
+          "id": 65,
+          "name": "img-preview",
+          "pathName": "pagesB/pages/imgPreview/imgPreview",
+          "query": ""
+        },
+        {
+          "id": 66,
+          "name": "merchant-info",
+          "pathName": "pagesB/pages/merchantinfo/merchantinfo",
+          "query": ""
+        },
+        {
+          "name": "pagesB/pages/chooseaddr/chooseaddr",
+          "pathName": "pagesB/pages/chooseaddr/chooseaddr",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

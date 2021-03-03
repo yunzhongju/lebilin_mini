@@ -1,0 +1,321 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 自定义 */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.goods-shelves .top-tab-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  padding: 20rpx 0;
+}
+.goods-shelves .top-tab-title .item {
+  position: relative;
+}
+.goods-shelves .top-tab-title .item .title {
+  font-size: 30rpx;
+  line-height: 48rpx;
+  font-weight: bold;
+  letter-spacing: 3rpx;
+  color: #969696;
+}
+.goods-shelves .top-tab-title .item .title.active {
+  color: #FF2F29;
+}
+.goods-shelves .top-tab-title .item .bottom-line {
+  width: 50%;
+  height: 4rpx;
+  background-color: #FF2F29;
+  position: absolute;
+  left: 25%;
+  bottom: -10rpx;
+}
+.goods-shelves .search-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  position: relative;
+  margin: 20rpx 28rpx;
+}
+.goods-shelves .search-box input {
+  width: 613rpx;
+  height: 55rpx;
+  background-color: #efefef;
+  border-radius: 22rpx;
+  font-size: 25rpx;
+  line-height: 55rpx;
+  padding-left: 56rpx;
+  box-sizing: border-box;
+}
+.goods-shelves .search-box text {
+  font-size: 30rpx;
+  letter-spacing: 3rpx;
+  color: #272636;
+}
+.goods-shelves .search-box .search-icon {
+  position: absolute;
+  width: 34rpx;
+  height: 34rpx;
+  left: 10rpx;
+  top: 11rpx;
+}
+.goods-shelves .search-box .close-icon {
+  position: absolute;
+  width: 34rpx;
+  height: 34rpx;
+  right: 100rpx;
+  top: 11rpx;
+  z-index: 99;
+}
+.goods-shelves .tab-content {
+  margin: 0 10rpx;
+}
+.goods-shelves .tab-content .child-tab {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 72rpx;
+}
+.goods-shelves .tab-content .child-tab .item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  margin-right: 40rpx;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+}
+.goods-shelves .tab-content .child-tab .item .title {
+  font-size: 30rpx;
+  line-height: 48rpx;
+  font-weight: bold;
+  letter-spacing: 3rpx;
+}
+.goods-shelves .tab-content .child-tab .item .bottom-line {
+  width: 50%;
+  height: 4rpx;
+  /* position: absolute;
+					left: 25%;
+					bottom: -10rpx; */
+}
+.goods-shelves .tab-content .child-tab .item .bottom-line.active {
+  background-color: #FF2F29;
+}
+.goods-shelves .tab-content .child-content {
+  box-sizing: border-box;
+  padding: 0 34rpx;
+}
+.goods-shelves .tab-content .child-content .item1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding-bottom: 30rpx;
+  border-bottom: 1rpx solid #eee;
+}
+.goods-shelves .tab-content .child-content .item1 .left {
+  width: 178rpx;
+  height: 178rpx;
+}
+.goods-shelves .tab-content .child-content .item1 .middle {
+  width: 284rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.goods-shelves .tab-content .child-content .item1 .middle .name {
+  font-size: 30rpx;
+  line-height: 48rpx;
+  letter-spacing: 3rpx;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.goods-shelves .tab-content .child-content .item1 .middle .quality {
+  font-size: 25rpx;
+  line-height: 48rpx;
+  letter-spacing: 3rpx;
+  color: #969696;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.goods-shelves .tab-content .child-content .item1 .middle .price {
+  font-size: 25rpx;
+  line-height: 48rpx;
+  letter-spacing: 3rpx;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.goods-shelves .tab-content .child-content .item1 .right {
+  width: 136rpx;
+  height: 109rpx;
+}
+.goods-shelves .tab-content .child-content .item2 {
+  border-bottom: 1rpx solid #eee;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 30rpx 0;
+}
+.goods-shelves .tab-content .child-content .item2 .left {
+  width: 178rpx;
+  height: 178rpx;
+  position: relative;
+}
+.goods-shelves .tab-content .child-content .item2 .left .goods {
+  width: 100%;
+  height: 100%;
+}
+.goods-shelves .tab-content .child-content .item2 .left .tag {
+  position: absolute;
+  left: 0rpx;
+  top: 0rpx;
+  width: 66rpx;
+  height: 71rpx;
+}
+.goods-shelves .tab-content .child-content .item2 .middle {
+  width: 318rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.goods-shelves .tab-content .child-content .item2 .middle .name {
+  font-size: 30rpx;
+  line-height: 48rpx;
+  letter-spacing: 3rpx;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.goods-shelves .tab-content .child-content .item2 .middle .supplier {
+  font-size: 25rpx;
+  line-height: 48rpx;
+  letter-spacing: 3rpx;
+  color: #969696;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.goods-shelves .tab-content .child-content .item2 .middle .price {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.goods-shelves .tab-content .child-content .item2 .middle .price .price1,
+.goods-shelves .tab-content .child-content .item2 .middle .price .price2 {
+  text-decoration: line-through;
+  font-size: 25rpx;
+  line-height: 48rpx;
+  letter-spacing: 3rpx;
+  color: #969696;
+}
+.goods-shelves .tab-content .child-content .item2 .middle .price .price2 {
+  color: #FF2F29;
+  text-decoration: none;
+  margin-left: 10rpx;
+}
+.goods-shelves .tab-content .child-content .item2 .middle .date {
+  font-size: 20rpx;
+  letter-spacing: 2rpx;
+  color: #969696;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.goods-shelves .tab-content .child-content .item2 .right {
+  width: 130rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.goods-shelves .tab-content .child-content .item2 .right .inventory {
+  font-size: 25rpx;
+  letter-spacing: 3rpx;
+  color: #969696;
+}
+.goods-shelves .tab-content .child-content .item2 .right .call {
+  width: 49rpx;
+  height: 49rpx;
+  margin: 26rpx 0;
+}
+.goods-shelves .tab-content .child-content .item2 .right .btn {
+  width: 130rpx;
+  height: 48rpx;
+  background-color: #ff2f29;
+  border-radius: 10rpx;
+  line-height: 48rpx;
+  font-size: 25rpx;
+  text-align: center;
+  color: #fff;
+}
+

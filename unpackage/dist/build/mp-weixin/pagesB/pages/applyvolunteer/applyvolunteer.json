@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "志愿者信息",
+  "usingComponents": {
+    "avatar": "/pagesB/components/yq-avatar"
+  }
+}

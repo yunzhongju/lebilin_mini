@@ -1,0 +1,1 @@
+<view class="work-detail"><view class="top"><text class="top-title">{{serviceObj.title}}</text></view><view class="connect"><rich-text class="font24" nodes="{{Strings}}"></rich-text></view></view>

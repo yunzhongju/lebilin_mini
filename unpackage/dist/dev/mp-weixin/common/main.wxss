@@ -1,0 +1,72 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+page {
+	min-height: 100%;
+	/* overflow-x: hidden; overflow-y: hidden; */
+	/* font-family: "Microsoft YaHei"; */
+}
+image {
+	vertical-align: middle;
+}
+

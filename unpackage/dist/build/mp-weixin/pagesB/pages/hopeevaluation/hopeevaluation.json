@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "心愿详情",
+  "usingComponents": {
+    "uni-steps": "/pagesB/components/uni-steps/uni-steps",
+    "nei-modal": "/pagesB/components/neil-modal"
+  }
+}

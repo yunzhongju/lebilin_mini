@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "商品管理详情",
+  "usingComponents": {
+    "xfl-select": "/pagesC/components/xfl-select",
+    "yu-datetime-picker": "/pagesC/components/yu-datetime-picker"
+  }
+}

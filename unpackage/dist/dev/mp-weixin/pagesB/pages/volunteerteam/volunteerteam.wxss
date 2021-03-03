@@ -1,0 +1,187 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 自定义 */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.volunteer-team-box .team-tab-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  margin: 30rpx 0;
+}
+.volunteer-team-box .team-tab-title > view {
+  padding: 0 16rpx;
+  text-align: center;
+}
+.volunteer-team-box .team-tab-title > view text {
+  font-size: 26rpx;
+}
+.volunteer-team-box .team-tab-title > view .title {
+  font-size: 30rpx;
+  letter-spacing: 3rpx;
+  position: relative;
+}
+.volunteer-team-box .team-tab-title > view .title.active {
+  font-size: 34rpx;
+  font-weight: bold;
+}
+.volunteer-team-box .team-tab-title > view .title .under-line {
+  position: absolute;
+  width: 40%;
+  height: 0;
+  background-color: #FF2F29;
+  border: 2rpx solid #FF2F29;
+  bottom: -10rpx;
+  left: 30%;
+}
+.volunteer-team-box .add-box {
+  text-align: end;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+}
+.volunteer-team-box .add-box .add-volunteer {
+  border: 1rpx solid #000;
+  font-size: 22rpx;
+  line-height: 40rpx;
+  display: block;
+  width: 140rpx;
+  text-align: center;
+  border-radius: 20rpx;
+  margin-right: 20rpx;
+}
+.volunteer-team-box .volunteers .volunteer-item {
+  margin: 30rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+}
+.volunteer-team-box .volunteers .volunteer-item .left {
+  width: 96rpx;
+  height: 96rpx;
+  border-radius: 50%;
+  margin: 0 30rpx 0 50rpx;
+}
+.volunteer-team-box .volunteers .volunteer-item .right {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.volunteer-team-box .volunteers .volunteer-item .right .right-top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-bottom: 8rpx;
+}
+.volunteer-team-box .volunteers .volunteer-item .right .right-top text {
+  font-size: 26rpx;
+  margin-right: 20rpx;
+}
+.volunteer-team-box .volunteers .volunteer-item .right .right-top image {
+  width: 26rpx;
+  height: 29rpx;
+}
+.volunteer-team-box .volunteers .volunteer-item .right .right-bottom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+}
+.volunteer-team-box .volunteers .volunteer-item .right .right-bottom text {
+  font-size: 22rpx;
+  line-height: 30rpx;
+  background-color: #e62329;
+  color: #fff;
+  padding: 0 10rpx;
+  border-radius: 8rpx;
+  margin-right: 20rpx;
+}
+.volunteer-team-box .volunteer-circle .item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.volunteer-team-box .volunteer-circle .item .left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin: 30rpx 40rpx 30rpx 70rpx;
+}
+.volunteer-team-box .volunteer-circle .item .left image {
+  width: 96rpx;
+  height: 96rpx;
+}
+.volunteer-team-box .volunteer-circle .item .left text {
+  font-size: 26rpx;
+}
+.volunteer-team-box .volunteer-circle .item .right {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.volunteer-team-box .volunteer-circle .item .right text {
+  font-size: 30rpx;
+  line-height: 46rpx;
+  margin-bottom: 30rpx;
+}
+
